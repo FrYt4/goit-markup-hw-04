@@ -289,7 +289,7 @@ color:var(--brand-color-navyblue);
     .team-social-list{
         display: flex;
         gap: 24px;
-        justify-content: center;
+        justify-content: center;s
         margin-top: 8px;
     }
 
