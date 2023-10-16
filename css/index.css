@@ -369,11 +369,7 @@ width: 40px;
 height: 40px;
 
     }
-
-    .customers-list{
-        gap: 24px;
-    }
-
+    
     .button-customers{
 width: calc((100% - 120px) / 6);
 height: 88px;
@@ -391,10 +387,12 @@ color: var(--brand-color-slate);
     }
 
 .customers-link:hover,
-.customers-link:focus{
+.customers-link:focus,
+.customers-link:active{
     border-color:var(--brand-color-ocean)  ;
     color: var(--brand-color-ocean);
 }
+
     .customers-icons{
 fill: currentColor;
     }
@@ -567,3 +565,13 @@ img{
     display: block;
 }
 
+.header-secondary{
+    color: #2e2f42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    margin-bottom: 72px;
+    text-transform: capitalize;
+    text-align: center;
+}
