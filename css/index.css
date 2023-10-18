@@ -513,11 +513,15 @@ background-color:#404BBF;
     padding: 12px 24px;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
+    box-shadow:i 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12)
 }
 
 .button-p:hover,
-.button-p:focus{
+.button-p:focus,
+.button-p:active{
     border: 1px solid transparent;
+    box-shadow:i 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12)
+
 }
    
     .all-btn{
