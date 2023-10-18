@@ -409,11 +409,12 @@ fill: #F4F4FD;
 .footer-flex{
     display: flex;
     align-items: baseline;
+
 }
 
 
 .footer-first-subcontainer{
-    gap:120px;
+    margin-right: 120px;
 }
 
 .footer-span{
