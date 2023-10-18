@@ -147,7 +147,7 @@ align-items: center;
 }
 
   .header{
-    display: flex;
+    background-color: #FFFFFF;
     border-bottom: 1px solid var(--brand-color-CORNFLOWER);
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -412,6 +412,7 @@ fill: #F4F4FD;
     align-items: baseline;
 }
 
+
 .footer-first-subcontainer{
     gap:120px;
 }
@@ -454,7 +455,8 @@ color:var(--brand-color-CLOUD);
 }
 
 .footer-social-link:hover,
-.footer-social-link:focus{
+.footer-social-link:focus,
+.footer-social-link:active{
     background-color: #31d0aa;
 }
 
@@ -475,12 +477,12 @@ color:var(--brand-color-CLOUD);
 
 .footer-social-list{
     display: flex;
+    gap: 16px;
 }
 
 .social-media-container{
     width: 40px;
     height: 40px;
-    gap: 16px;
 
 }
 
