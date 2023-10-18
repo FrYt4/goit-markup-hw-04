@@ -34,8 +34,7 @@
     background-color: var(--brand-color-navyblue);
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-    ),
+        rgba(46, 47, 66, 0.7)),
     url(../images/people-office\ 1.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
@@ -47,7 +46,6 @@
     width: 600px;
 }
 
-.container> .hea
 .section-second{
     padding: 120px 0;
 }
@@ -88,7 +86,8 @@ padding: 120px 0;
     text-decoration: none;
 }
 .link:hover,
-.link:focus {
+.link:focus,
+.link-active {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -465,7 +464,7 @@ color:var(--brand-color-CLOUD);
     justify-content: flex-start;
 }
 
-.sociakl-media-paragraph{
+.social-media-paragraph{
     color: #FFFFFF;
     font-family: inherit;
     font-size: 16px;
@@ -486,11 +485,7 @@ color:var(--brand-color-CLOUD);
 
 }
 
-.footer-media-container{
-    width: 40px;
-    height: 40px;
-}
-                                            /*BUTTON*/
+                                           /*BUTTON*/
 .btn {
     color: var(--brand-color-iris) ;
     background-color: #F4F4FD ;
