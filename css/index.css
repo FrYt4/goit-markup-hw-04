@@ -363,7 +363,7 @@ margin-bottom: 8px;
 
     .team-social-item:hover,
     .team-social-item:focus,
-    .team-social-item:active{
+    .team-social-item:active {
 background-color:#404BBF;
     }
 
@@ -386,7 +386,7 @@ border-radius: 4px;
 display: flex;
 align-items: center;
 justify-content: center;
-color: var(--brand-color-slate);
+color: #8e8f99;
     }
 
 .customers-link:hover,
@@ -397,7 +397,7 @@ color: var(--brand-color-slate);
 }
 
     .customers-icons{
-fill: #F4F4FD;
+fill: currentColor;
     }
                                              /* Footer*/
 .footer {
@@ -631,7 +631,7 @@ img{
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    margin-bottom: 72px;
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 72px;
 }
