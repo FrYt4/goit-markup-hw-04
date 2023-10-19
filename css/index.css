@@ -11,9 +11,13 @@
 --brand-color-CORNFLOWER:  #E7E9FC;
 --gap: 10px
 
+
 *{
+gap:0;
+    box-sizing:border-box;
     margin: 0;
     padding: 0;
+    
 }
   }
   ul,
@@ -458,11 +462,6 @@ color:var(--brand-color-CLOUD);
 .footer-social-link:focus,
 .footer-social-link:active{
     background-color: #31d0aa;
-}
-
-.footer> .container{
-    align-items: center;
-    justify-content: flex-start;
 }
 
 .social-media-paragraph{
