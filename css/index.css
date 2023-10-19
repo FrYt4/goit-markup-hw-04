@@ -13,7 +13,6 @@
 
 
 *{
-gap:0;
     box-sizing:border-box;
     margin: 0;
     padding: 0;
@@ -72,7 +71,6 @@ padding: 120px 0;
 }
 
 .container{
-    justify-content: center;
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -402,7 +400,7 @@ color: #8e8f99;
 }
 
     .customers-icons{
-fill: currentColor;
+fill: #f4f4fd;
     }
                                              /* Footer*/
 .footer {
@@ -418,7 +416,7 @@ fill: currentColor;
 
 
 .footer-first-subcontainer{
-    margin-right: 120px;
+    margin-right: 120px ;
 }
 
 .footer-span{
@@ -619,4 +617,5 @@ img{
     text-transform: capitalize;
     text-align: center;
     margin-bottom: 72px;
+
 }
